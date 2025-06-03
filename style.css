@@ -495,7 +495,6 @@ footer li {
 
     .offcanvas-body {
     width: 400px;
-/*     background-color: #0a0a0a; */
 }
 
     .hero p {
@@ -539,4 +538,12 @@ footer li {
     left: 10%;
 }
 
+}
+
+/* mobile m */
+@media(max-width: 576px) {
+    .offcanvas-body {
+    width: 400px;
+    color: white;
+}
 }
