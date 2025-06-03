@@ -512,7 +512,7 @@ footer li {
     }
 
     .timeline li .timeline-panel {
-        width: 65%;
+        width: 45%;
         transform: translate(-20px);
     }
 
@@ -523,5 +523,15 @@ footer li {
     .timeline li .timeline-panel::after {
         top: 51px;
     }
+
+    .timeline::before {
+    content: '';
+    top: 8%;
+    bottom: 20%;
+    position: absolute;
+    width: 1px;
+    background-color: #a9a9a9;
+    left: 10%;
+}
 
 }
