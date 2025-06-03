@@ -528,6 +528,30 @@ footer li {
         top: 51px;
     }
 
+            .offcanvas-body a {
+            margin: 10px;
+        color: #ffffff;
+    }
+
+    .container .offcanvas {
+        left: 8%;
+    }
+
+    .offcanvas-body {
+        margin-top: 10px;
+        width: fit-content;
+        margin-left: 16vh;
+        /* background-color: aliceblue; */
+    }
+
+    .offcanvas-header {
+        /* background-color: #f14e95; */
+        justify-content: center;
+        width:43vh;
+        color: #ffffff;
+        border-bottom: 1px solid #a9a9a9;
+    }
+
 }
 
 /* mobile size M */
