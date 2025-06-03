@@ -63,6 +63,7 @@ body {
 
 .mynavbar .offcanvas {
     height: 100vh;
+    width: auto;
 }
 
 .mynavbar .nav-link {
@@ -77,6 +78,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 .home {
     background-image: url(img/floral-Pattern-flower.jpg);
@@ -176,11 +179,11 @@ body {
     background-color: rgba(255, 2555, 2555, 0.5) !important;
     backdrop-filter: blur;
     color: rgb(216, 216, 216) !important;
-    border: 1px solid #ffff;
+    border: 1px solid #999;
 }
 
 .info .card-header {
-    border-bottom: 1px solid #ffff;
+    border-bottom: 1px solid #999;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     background-color: rgba(252, 65, 168, 0.604);
@@ -192,7 +195,7 @@ body {
 }
 
 .info .card-footer {
-    border-bottom: 1px solid #ffff;
+    border-bottom: 1px solid #999;
     font-size: 0.9rem;
     font-weight: 300;
 }
@@ -342,7 +345,7 @@ body {
 
 .rsvp button:hover {
     background-color: #ffffff;
-    color:var(--pink);
+    color: var(--pink);
     border: 1px solid #ffffff;
 }
 
@@ -368,7 +371,7 @@ footer i {
 }
 
 footer li {
-        list-style: none;
+    list-style: none;
 }
 
 .audio-icon {
@@ -393,6 +396,7 @@ footer li {
     form {
         transform: rotate(0);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -507,12 +511,12 @@ footer li {
     }
 
     .timeline li .timeline-image {
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
     }
 
     .timeline li .timeline-panel {
-        width: 45%;
+        width: 65%;
         transform: translate(-20px);
     }
 
@@ -524,15 +528,6 @@ footer li {
         top: 51px;
     }
 
-    .timeline::before {
-    content: '';
-    top: 8%;
-    bottom: 20%;
-    position: absolute;
-    width: 1px;
-    background-color: #a9a9a9;
-    left: 10%;
-    }
 }
 
 /* mobile size M */
@@ -556,4 +551,3 @@ footer li {
         color: #ffffff;
     }
 }
-
