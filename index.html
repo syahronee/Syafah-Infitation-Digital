@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- link Font Syahroni & Mualifah -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zhi+Mang+Xing&display=swap"
+        rel="stylesheet">
+    <!--  -->
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Syafah Wedding Infitation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <!-- Link CountDown -->
+    <link rel="stylesheet" href="countdown/cyber.min.css" />
+    <script src="countdown/simplyCountdown.umd.js"></script>
+
+    <!-- Bootsrap ICONS LOVE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <section id="hero" class="hero">
+        <main>
+            <h4>The Wedding Of</h4>
+            <h1>Sya'roni & Mualifah</h1><br>
+            <h3>Kepada <span>Bapak/Ibu/Saudara/i</span></h3>
+            <p>Kami mengundang anda ke hari istimewa kami, dalam:</p>
+            <div class="simply-countdown-cyber"></div><br><br>
+            <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Syafah</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Syafah</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#story">Story</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#rsvp">RSVP</a>
+                        <a class="nav-link" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 10 Oktober 2025 di Pandaan, Pasuruan.</h3>
+                    <p>Oleh karena itu, dengan segala hormat kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i, untuk
+                        hadir pada acara pernikahan kami.</p>
+                </div>
+            </div>
+
+            <div class="row couple">
+                <!-- Foto Laki-laki -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Moch. Sya'roni</h3>
+                            <p>Merupakan anak kedua dari:</p>
+                            <p><b>Bpk. Achmad Tawi<br> dan <br> Ibu Khoiriyah</b></p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/ghi-ghi.jpg" alt="Moch Sya'roni" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+                <!-- Foto Perempuan -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/Cha-cha.jpg" alt="Dian Mualifah" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Dian Mualifah</h3>
+                            <p>Anak kedua juga wkwkwk, dari:</p>
+                            <p><b>Bpk. Muhid Murtadho<br> dan <br> Ibu Rofi'a</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="info" class="info">
+        <div class="countainer">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Sumberjati Wetan, Wedoro, Pandaan, Pasuruan</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.073729803841!2d112.7237043!3d-7.675223000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d195c9a3847d%3A0xdba68ea2ac0bc81d!2sMebel%20Pak%20Tawi%20-%20sumberjati%20wetan!5e0!3m2!1sid!2sid!4v1748940372117!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="display-flex justify-content-center"></iframe><br>
+                    <a href="https://maps.app.goo.gl/2aswtSQ8zY1C79J46" target="_blank" class="btn btn-sm my-3">Klik
+                        untuk membuka peta</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
+                        namun tidak ada tanda-tanda sedang dilangsungkannya acara pernikahan, boleh jadi Anda salah
+                        jadwal, atau salah tempat.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <!-- Akad Nikah -->
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">
+                            Akad Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>08.00 - 10.00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-heart d-block"></i>
+                                    <span>Minggu, 10 Oktober 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusu'an seluruh
+                            prosesi.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resepsi -->
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Resepsi
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>13.00 - Selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-heart d-block"></i>
+                                    <span>Minggu, 10 Oktober 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara resepsi diharapkan untuk kondusif selama acara sedang berlangsung, tertib saat
+                            ambil prasmanan, hehehe.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="countainer">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Perjalanan Cinta Kami</span>
+                    <h2>Love Story</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam natus, quod vel harum expedita
+                        officiis.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <!-- Gamber 1 -->
+                        <li>
+                            <div class="timeline-image" style="background-image: url(img/hati-lope.jpg);"></div>
+                            <div class="timeline-panel">
+                                <div class="heading">
+                                    <h3>Destiny</h3>
+                                    <span>25 Februari 2025</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Kisah ini bermula, ketika sudut-sudut mata saling bertemu, saat tawa terhenti dan
+                                        hening yang tiba-tiba menyeruak diruang tamu, saat denting secangkir teh dan
+                                        tatakan yang tiba-tiba berbunyi sebab tangan yang gemetar menjamu. Sore hari,
+                                        pukul 16:30, kami dipertemukan oleh takdir. Sebuah angin kisah yang tak kami
+                                        ketahui ujungnya. Kami menyebutnya <i>Destiny</i>.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Gambar 2 -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(img/2-merpati.jpg);"></div>
+                            <div class="timeline-panel">
+                                <div class="heading">
+                                    <h3>Miracle</h3>
+                                    <span>26 Februari 2025</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>kami memutuskan untuk taaruf via daring. Jadilah, gawai kami yang saling
+                                        berdering, menyampaikan kabar satu sama lain yang masih asing. Segala hal
+                                        tentang kami, menjadi topik renyah ditengah ramainya hujan.</p>
+                                </div>
+                                <div class="heading">
+                                    <span>27 Februari 2025</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>kita memutuskan rehat, untuk menyelami keyakinan dalam diri, karena tujuan kita
+                                        untuk terikat, bukan sekedar mampir lalu pergi. Tiada disangka, kemantapan hati
+                                        itu tumbuh cepat dalam diri kami, sehingga pada 28 Februari 2025, tepat 3 hari
+                                        setelah nadhor itu, orang tua kami bertemu, membahas kami yang hendak melangkah
+                                        bersama ketujuan yang satu. <i>Miracle</i>, adalah devinisi cerita kami 3 hari
+                                        itu.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Gambar 3 -->
+                        <li>
+                            <div class="timeline-image" style="background-image: url(img/2-cincin.jpg);"></div>
+                            <div class="timeline-panel">
+                                <div class="heading">
+                                    <h3>Blessing</h3>
+                                    <span> 18 April 2025</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Blessing
+                                        50 hari setelah pertemuan orang tua kami, adalah kedua kalinya kami bertemu.
+                                        Bersama restu orang tua kami, abah yai dan ibu nyai, serta keluarga besar kami,
+                                        cincinpun tersemat elok dijari manis, diiringi derai haru suara tangis, saat
+                                        kumandang mahalul qiyam yang merebak dipenjuru ruangan, dan hati kami yang
+                                        sama-sama berdebar tersimpan. <i>we will live this blessing together.</i></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori Kisah Kami</span>
+                    <h2>My Gallery</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam natus, quod vel harum expedita
+                        officiis.</p>
+                </div>
+                <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                    <div class="col mt-3">
+                        <a href="img/gallery/manteman-cewe.jpeg" data-toggle="lightbox" data-caption="Manteman Cewe"
+                            data-gallery="mygallery">
+                            <img src="img/gallery/thumbnail/thumbnail-gallery 2.jpg" alt="Manteman Cewe"
+                                class="img-fluid w-100 rounded">
+                        </a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="img/gallery/Keluarga-1.jpeg" data-toggle="lightbox" data-caption="Foto Keluarga"
+                            data-gallery="mygallery">
+                            <img src="img/gallery/thumbnail/thumbnail-gallery 2.jpg" alt="Foto Keluarga"
+                                class="img-fluid w-100 rounded">
+                        </a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="img/gallery/Keluarga-2.jpeg" data-toggle="lightbox" data-caption="My Family"
+                            data-gallery="mygallery">
+                            <img src="img/gallery/thumbnail/thumbnail-gallery 2.jpg" alt="My Family"
+                                class="img-fluid w-100 rounded">
+                        </a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="img/gallery/Grid 1.png" data-toggle="lightbox"
+                            data-caption="Bersama Ibunyai Aminah Zuhriyah - Foto Keluarga" data-gallery="mygallery">
+                            <img src="img/gallery/thumbnail/thumbnail-gallery 2.jpg"
+                                alt="Bersama Ibunyai Aminah Zuhriyah - Foto Keluarga" class="img-fluid w-100 rounded">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
+                </div>
+                <form class="row row-cols-lg-auto g-3 align-items-center justify-content-center" method="POST"
+                    action="https://script.google.com/macros/s/AKfycbwLwtWCXaTPddWFAiUXqOk1AZyMaXaD_49dMtfze1XsGIXzG0KOpwRFGsv3RySahLpY/exec"
+                    id="my-form1">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="nama" name="nama" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="jumlah" class="form-label">Jumlah Tamu</label>
+                            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5"
+                                length="1" value="1">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="status" class="form-label">Konfirmasi Kehadiran</label>
+                            <select name="status" id="status" class="form-select">
+                                <option selected>Pilih salah satu</option>
+                                <option value="Hadir">Hadir</option>
+                                <option value="Tidak Hadir">Tidak Hadir</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12" style="margin-top: 32px;">
+                        <button class="btn btn-primary">Kirim</button>
+                    </div>
+                </form> 
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-6">
+                        <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://syaroni.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://syahroni.disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Ungkapan tanda kasih</span>
+                    <h2>Kirim Hadiah</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-bold">BNI</div>
+                            1560007227 - MOH SAKRONI
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold">Dana</div>
+                            0896 8749 8811 - MOH SAKRONI
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy;2025 Syafah Wedding. All Right Reserved.</small>
+                    <small class="block">Design by: <a
+                            href="https://instagram.com/syahroni_fadlan">@syahroni_fadlan</a></small>
+                    <ul class="mt-3">
+                        <li>
+                            <a href="https://instagram.com/syahroni_fadlan"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.youtube.com/@TJ_Short"><i class="bi bi-youtube"></i></a>
+                            <a href="https://web.facebook.com/plurr.lovefreedom"><i class="bi bi-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="music/romantic-wedding-background-music-337990.mp3">
+        </audio>
+        <div class="audio-icon" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+
+
+    <!-- Java Script Bootsrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <!-- Bootsrap Lightbox -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+    <!-- countdown -->
+    <script>
+        // This will init all countdowns with the same options, but different themes
+        simplyCountdown('.simply-countdown-cyber', {
+            year: 2025,
+            month: 10,
+            day: 10,
+            onStop: () => console.log('Countdown stopped'),
+            onResume: () => console.log('Countdown resumed'),
+            onUpdate: (newParams) => console.log('Updated with:', newParams)
+        });
+    </script>
+
+    <script>
+        const stickytop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function () {
+            stickytop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+            stickytop.style.overflow = 'hidden';
+        });
+    </script>
+
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIcon = document.querySelector('.audio-icon');
+        const audioIcn = document.querySelector('.audio-icon i');
+        const song = document.querySelector('#song');
+        let isPlaying = false;
+
+        function disablescroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollLeft = window.pageYOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(scrollTop, scrollLeft);
+            }
+
+            rootElement.style.scrollBehavior = 'auto';
+        }
+
+        function enableScroll() {
+            window.onscroll = function () { }
+            rootElement.style.scrollBehavior = 'smooth';
+            //    localStorage.setItem('opened', 'true');
+            playAudio();
+        }
+
+        function playAudio() {
+            song.volume = 0.9;
+            audioIcon.style.display = 'flex';
+            song.play();
+            isPlaying = true;
+        }
+
+        audioIcon.onclick = function () {
+            if (isPlaying) {
+                song.pause();
+                audioIcn.classList.remove('bi-disc');
+                audioIcn.classList.add('bi-pause-circle');
+            } else {
+                audioIcn.classList.add('bi-disc');
+                audioIcn.classList.remove('bi-pause-circle');
+                song.play();
+            }
+
+            isPlaying = !isPlaying;
+        }
+
+        //if (!localStorage.getItem('opened')) {
+        //    
+        //}
+        disablescroll();
+    </script>
+
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form1');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("Konfirmasi kehadiran berhasil terkirim!");
+                    })
+            });
+        });
+    </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama') || '';
+        const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+        const namaContainer = document.querySelector('.hero h3 span');
+        namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+        document.querySelector('#nama').value = nama
+    </script>
+
+</body>
+
+</html>
