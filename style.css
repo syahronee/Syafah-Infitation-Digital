@@ -493,10 +493,6 @@ footer li {
         font-size: 60%;
     }
 
-    .offcanvas-body {
-    width: 400px;
-}
-
     .hero p {
         font-size: small;
     }
@@ -536,16 +532,28 @@ footer li {
     width: 1px;
     background-color: #a9a9a9;
     left: 10%;
+    }
 }
 
-}
 
-/* mobile m */
+    /* mobile size M */
 @media(max-width: 375px) {
+
+    .offcanvas-body a {
+        color: #ffffff;
+    }
+
     .offcanvas-body {
-        margin: 20%;
-        padding: 50px;
-        width: 200px;
-        color: white;
-}
+        width: fit-content;
+        margin-left: 14vh;
+    }
+
+    .offcanvas-header {
+        /* background-color: #f14e95; */
+        display: flex;
+        justify-content: center;
+        width:37vh;
+        margin-left: 2px;
+        color: #ffffff;
+    }
 }
