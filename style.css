@@ -543,8 +543,9 @@ footer li {
 /* mobile m */
 @media(max-width: 375px) {
     .offcanvas-body {
-    padding: 50px;
-    width: 200px;
-    color: white;
+        margin: 20%;
+        padding: 50px;
+        width: 200px;
+        color: white;
 }
 }
