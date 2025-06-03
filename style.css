@@ -176,11 +176,11 @@ body {
     background-color: rgba(255, 2555, 2555, 0.5) !important;
     backdrop-filter: blur;
     color: rgb(216, 216, 216) !important;
-    border: 1px solid #999;
+    border: 1px solid #ffff;
 }
 
 .info .card-header {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #ffff;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     background-color: rgba(252, 65, 168, 0.604);
@@ -192,7 +192,7 @@ body {
 }
 
 .info .card-footer {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #ffff;
     font-size: 0.9rem;
     font-weight: 300;
 }
