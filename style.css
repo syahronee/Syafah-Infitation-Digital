@@ -535,3 +535,25 @@ footer li {
     }
 }
 
+/* mobile size M */
+@media(max-width: 375px) {
+
+    .offcanvas-body a {
+        color: #ffffff;
+    }
+
+    .offcanvas-body {
+        width: fit-content;
+        margin-left: 14vh;
+    }
+
+    .offcanvas-header {
+        /* background-color: #f14e95; */
+        display: flex;
+        justify-content: center;
+        width:37vh;
+        margin-left: 2px;
+        color: #ffffff;
+    }
+}
+
