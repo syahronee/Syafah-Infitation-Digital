@@ -505,12 +505,12 @@
         // disablescroll();
 
         document.addEventListener('scroll', function () {
-            if (document.documentElement.scrollTop > 50) { // Atur nilai sesuai kebutuhan
+            if (document.documentElement.scrollTop > 100) { // Atur nilai sesuai kebutuhan
                 document.getElementById('musicPlayer').style.display = 'block';
-                document.getElementById('musicPlayer').play(); // Mulai memutar
+                document.getElementById('musicPlayer')song.play(); // Mulai memutar
             } else {
                 document.getElementById('musicPlayer').style.display = 'none';
-                document.getElementById('musicPlayer').pause(); // Jeda
+                document.getElementById('musicPlayer')song.pause(); // Jeda
                 document.getElementById('musicPlayer').currentTime = 0; // Kembalikan ke awal
             }
         });
