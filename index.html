@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
-<body onclick="putarMusik()">
+<body>
 
     <section id="hero" class="hero" onclick="putarMusik()">
         <main>
@@ -66,7 +66,7 @@
     </nav>
 
 
-    <section id="home" class="home">
+    <section id="home" class="home" onclick="putarMusik()">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
@@ -468,7 +468,7 @@
         const rootElement = document.querySelector(":root");
         const audioIcon = document.querySelector('.audio-icon');
         const audioIcn = document.querySelector('.audio-icon i');
-        const song = document.querySelector('#song');
+        const song = document.querySelector('#musicPlayer');
         let isPlaying = false;
 
         // function disablescroll() {
