@@ -557,6 +557,10 @@ footer li {
 /* mobile size M */
 @media(max-width: 375px) {
 
+    .timeline li .timeline-panel {
+        left: 3rem;
+    }
+    
     .offcanvas-body a {
         color: #ffffff;
     }
