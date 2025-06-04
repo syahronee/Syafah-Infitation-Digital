@@ -25,16 +25,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body onClick="putarMusik">
 
-    <section id="hero" class="hero">
+    <section id="hero" class="hero" onclick="putarMusik()">
         <main>
             <h4>The Wedding Of</h4>
             <h1>Sya'roni & Mualifah</h1><br>
             <h3>Kepada <span>Bapak/Ibu/Saudara/i</span></h3>
             <p>Kami mengundang anda ke hari istimewa kami, dalam:</p>
             <div class="simply-countdown-cyber"></div><br><br>
-            <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+            <a href="#home" class="btn btn-lg mt-4" onClick="putarMusik()">Lihat Undangan</a>
         </main>
     </section>
 
@@ -95,7 +95,7 @@
                 <span class="heart"><i class="bi bi-heart-fill"></i></span>
 
                 <!-- Foto Perempuan -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-5">
                     <div class="row">
                         <div class="col-4">
                             <img src="img/Cha-cha.jpg" alt="Dian Mualifah" class="img-responsive rounded-circle">
@@ -119,7 +119,11 @@
                 <div class="col-md-8 col-10 text-center">
                     <h2>Informasi Acara</h2>
                     <p class="alamat">Alamat: Sumberjati Wetan, Wedoro, Pandaan, Pasuruan</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.073729803841!2d112.7237043!3d-7.675223000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d195c9a3847d%3A0xdba68ea2ac0bc81d!2sMebel%20Pak%20Tawi%20-%20sumberjati%20wetan!5e0!3m2!1sid!2sid!4v1748940372117!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="display-flex justify-content-center"></iframe><br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.073729803841!2d112.7237043!3d-7.675223000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d195c9a3847d%3A0xdba68ea2ac0bc81d!2sMebel%20Pak%20Tawi%20-%20sumberjati%20wetan!5e0!3m2!1sid!2sid!4v1748940372117!5m2!1sid!2sid"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="display-flex justify-content-center"></iframe><br>
                     <a href="https://maps.app.goo.gl/2aswtSQ8zY1C79J46" target="_blank" class="btn btn-sm my-3">Klik
                         untuk membuka peta</a>
                     <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
@@ -340,32 +344,34 @@
                     <div class="col-2" style="margin-top: 32px;">
                         <button class="btn btn-primary">Kirim</button>
                     </div>
-                </form> 
+                </form>
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-6">
                         <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://syaroni.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://syahroni.disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                        <script>
+                            /**
+                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                            /*
+                            var disqus_config = function () {
+                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+                            */
+                            (function () { // DON'T EDIT BELOW THIS LINE
+                                var d = document, s = d.createElement('script');
+                                s.src = 'https://syaroni.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a
+                                href="https://syahroni.disqus.com/?ref_noscript">comments powered by
+                                Disqus.</a></noscript>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -416,7 +422,7 @@
     </footer>
 
     <div id="audio-container">
-        <audio id="song" autoplay loop>
+        <audio id="musicPlayer" autoplay loop>
             <source src="music/romantic-wedding-background-music-337990.mp3">
         </audio>
         <div class="audio-icon" style="display: none;">
@@ -465,21 +471,21 @@
         const song = document.querySelector('#song');
         let isPlaying = false;
 
-        function disablescroll() {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const scrollLeft = window.pageYOffset || document.documentElement.scrollLeft;
+        // function disablescroll() {
+        //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        //     const scrollLeft = window.pageYOffset || document.documentElement.scrollLeft;
 
-            window.onscroll = function () {
-                window.scrollTo(scrollTop, scrollLeft);
-            }
+        //     window.onscroll = function () {
+        //         window.scrollTo(scrollTop, scrollLeft);
+        //     }
 
-            rootElement.style.scrollBehavior = 'auto';
-        }
+        //     rootElement.style.scrollBehavior = 'auto';
+        // }
 
-        function enableScroll() {
+        function putarMusik() {
             window.onscroll = function () { }
             rootElement.style.scrollBehavior = 'smooth';
-            //    localStorage.setItem('opened', 'true');
+            localStorage.setItem('opened', 'true');
             playAudio();
         }
 
@@ -504,10 +510,21 @@
             isPlaying = !isPlaying;
         }
 
-        //if (!localStorage.getItem('opened')) {
-        //    
-        //}
-        disablescroll();
+        if (!localStorage.getItem('opened')) {
+
+        }
+        // disablescroll();
+
+        document.addEventListener('scroll', function () {
+            if (document.documentElement.scrollTop > 50) { // Atur nilai sesuai kebutuhan
+                document.getElementById('musicPlayer').style.display = 'block';
+                document.getElementById('musicPlayer').play(); // Mulai memutar
+            } else {
+                document.getElementById('musicPlayer').style.display = 'none';
+                document.getElementById('musicPlayer').pause(); // Jeda
+                document.getElementById('musicPlayer').currentTime = 0; // Kembalikan ke awal
+            }
+        });
     </script>
 
     <script>
